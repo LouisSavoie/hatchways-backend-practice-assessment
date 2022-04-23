@@ -1,0 +1,27 @@
+{
+  "name": "hatchways-backend-practice-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --coverage",
+    "start": "node server.js",
+    "lint": "npx eslint .",
+    "lintf": "npx eslint . --fix"
+  },
+  "author": "Louis Savoie",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  }
+}
